@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
 body {
@@ -10,24 +10,62 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
 }
 
 .header-link {
     display:flex;
     justify-content: space-between;
     gap: 16px;
+    font-size: 18px;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
+    padding: 50px 0 50px 0;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.info-content {
+    display: flex;
+    gap: 48px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.modal-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
