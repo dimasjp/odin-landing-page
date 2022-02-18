@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap');
+
 body {
     font-family: Roboto;
     margin: 0;
@@ -65,20 +67,22 @@ body {
     font-size: 36px;
     color: #1F2937;
     margin-bottom: 50px;
+    font-weight: 900;
 }
 
-.info-content {
+.info-container {
     display: flex;
     width: 500px;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     border: #1F2937 solid;
+    gap: 24px;
 }
 
-.info-img {
+[class ^="info-content"] {
     display: flex;
-    gap: 48px;
-    margin-bottom: 16px;
+    flex-direction: column;
+    align-items: center;
 }
 
 [class ^="box"] {
@@ -87,9 +91,9 @@ body {
     border: 2px solid blue;
 }
 
-.info-sub {
+[class ^="info-sub"] {
     display: flex;
-    gap: 48px;
+    align-items: center;
 }
 
 .testimonial {
