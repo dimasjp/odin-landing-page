@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 24px 50px 0px 50px;
 }
 
 .header-logo {
@@ -27,6 +28,11 @@ body {
     color: #E5E7EB;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -39,6 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
+    gap: 16px;
 }
 
 .hero-main {
@@ -89,11 +96,13 @@ body {
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 [class ^="info-sub"] {
     display: flex;
     align-items: center;
+    color: #1F2937;
 }
 
 .quote {
