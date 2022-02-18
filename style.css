@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400&display=swap');
 
 body {
     font-family: Roboto;
@@ -72,10 +72,8 @@ body {
 
 .info-container {
     display: flex;
-    width: 500px;
+    width: 800px;
     justify-content: center;
-    flex-wrap: wrap;
-    border: #1F2937 solid;
     gap: 24px;
 }
 
@@ -85,10 +83,11 @@ body {
     align-items: center;
 }
 
-[class ^="box"] {
-    width: 50px;
-    height: 50px;
-    border: 2px solid blue;
+[class ^="info-img"] {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 25px;
 }
 
 [class ^="info-sub"] {
@@ -96,15 +95,38 @@ body {
     align-items: center;
 }
 
-.testimonial {
+.quote {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    justify-content: center;
+    margin: 48px;
+}
+
+.whitespace {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
+    background-color: #3882F6;
+    width: 500px;
+    height: 100px;
 }
 
 .modal-text {
